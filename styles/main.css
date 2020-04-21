@@ -1,19 +1,58 @@
-.blue {
-    background-color: hsl(240, 70%, 30%, 40%); 
-    border-radius: 25%;
+* {
+    text-align: center;
 }
+
+.blue {
+    background-color: rgba(49, 150, 201, 0.226); 
+    border-radius: 5%;
+    margin: 0;
+}
+
 
 .header-link {
-    
+    font-family: 'Rubik', sans-serif;    
+    padding: 10px;
+    margin: 10px;
 }
 
+.blog-link {
+    font-family: 'Rubik', sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+}
 
 #smilingben {
-    max-height: 300px;
-    border-radius: 25%;  
-    <
+    height: 250px;
+    border-radius: 25%;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 60px;
+    vertical-align: top;
+
 }
 
 .intro {
-    max-width: 70%;
+    display: inline-block;
+    height: 250px;
+    width: 40%;
+    line-height: 50px;
+    padding: 20px;
+    vertical-align: top;
 }
