@@ -7,6 +7,18 @@ body {
     margin: 0;
 }
 
+.link {
+    padding: 4px;
+    margin: 10px;
+    background-color: hsla(183, 53%, 50%, 0.30);
+    border: solid 2px hsla(236, 53%, 59%, 0.82);
+    display: inline-block;
+    height: 35px;
+    width: 120px;
+    text-align: center;
+    font-family: Rubik, sans-serif;
+}
+
 .blue {
     background-color: hsla(183, 53%, 50%, 0.30); 
     margin: 0;
@@ -14,8 +26,7 @@ body {
 
 
 header {
-    height: 100px;
-
+    height: 160px;
     border-bottom: 5px solid hsla(236, 53%, 59%, 0.82);
     box-shadow: 5px 5px 4px 0 #000000;
 }
