@@ -29,14 +29,14 @@ footer {
 }
 
 .header-link {
-    font-family: 'Rubik', sans-serif;    
+    font-family: 'Rubik', sans-serif;  
     padding: 2px;
     margin: 20px;  
 
 }
 
 .blog-link {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;  
     font-size: 25px;
     font-weight: bold;
     background-color: hsla(183, 53%, 50%, 0.30);
@@ -54,24 +54,27 @@ footer {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding-top: 25px;
     font-size: 40px;
     font-weight: bold;
     max-height: 40px;
+    text-shadow: 1px 1px hsla(206, 0%, 19%, 0.92);
+    padding-top: 25px;
+    white-space: nowrap;
 
 }
 
 h2{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;  
+    
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;  
+    
 }
 
 p {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;  
 }
 
 #smilingben {
@@ -92,14 +95,9 @@ p {
     line-height: 50px;
     padding: 20px;
     vertical-align: top;
-    overflow: scroll;
+    overflow: hidden;
 }
 
-.tech-image {
-    height: 90px;
-    display: block;
-    float: right;
-}
 
 .date {
     float: right;
@@ -107,5 +105,14 @@ p {
 
 .blog-info {
     font-size: 17px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;  
+}
+
+.blog-link:hover {
+    transform: scale(1.1);
+}
+
+#smilingben:hover {
+    transform: scale(1.1);
+
 }
