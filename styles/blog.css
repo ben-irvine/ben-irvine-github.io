@@ -78,41 +78,10 @@ p {
     font-family: 'Rubik', sans-serif;  
 }
 
-#smilingben {
-    height: 250px;
-    border-radius: 25%;
-    border: solid 5px hsla(206, 53%, 59%, 0.92);
+.info-paragraph {
     display: inline-block;
-    margin-left: 60px;
-    vertical-align: top;
-    box-shadow: 5px 5px 4px 0 #000000;
-
+    width: 50%;
+    margin-left: 30px;
+    height: 180px;
 }
 
-.intro {
-    display: inline-block;
-    max-height: 250px;
-    width: 40%;
-    line-height: 50px;
-    padding: 20px;
-    vertical-align: top;
-    overflow: hidden;
-}
-
-
-.date {
-    float: right;
-}
-
-.blog-info {
-    font-size: 17px;
-    font-family: 'Rubik', sans-serif;  
-}
-
-.blog-link:hover {
-    transform: scale(1.1);
-}
-
-#smilingben:hover {
-    transform: scale(1.1);
-}
