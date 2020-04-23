@@ -94,5 +94,39 @@ p {
     width: 50%;
     margin-left: 30px;
     height: 180px;
+    vertical-align: top;
 }
 
+#inline-code-img {
+    display: inline-block;
+    max-height: 170px;
+    margin-left: 50px;
+    padding: 0;
+}
+
+#block-code-img {
+    display: inline-block;
+    max-height: 240px;
+    margin-left: 50px;
+    padding: 0;
+
+}
+
+.product-img {
+    display: inline-block;
+    max-width: 800px;
+}
+
+.img-caption {
+    font-size: 13px;
+}
+
+img {
+    border: solid 5px hsla(206, 53%, 59%, 0.92);
+    border-radius: 10%;
+}
+
+#inline-block-code-img {
+    display: inline-block;
+    margin-left: 60px;
+}
