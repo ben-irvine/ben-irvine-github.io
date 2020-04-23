@@ -130,3 +130,15 @@ img {
     display: inline-block;
     margin-left: 60px;
 }
+
+.core-heading {
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+}
+
+.core-paragraph {
+    width: 60%;
+    text-align: center;
+    display: inline-block;
+}
