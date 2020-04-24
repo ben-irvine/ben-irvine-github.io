@@ -91,9 +91,8 @@ p {
 
 .info-paragraph {
     display: inline-block;
-    width: 50%;
+    width: 40%;
     margin-left: 30px;
-    height: 180px;
     vertical-align: top;
 }
 
