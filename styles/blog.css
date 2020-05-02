@@ -123,6 +123,7 @@ p {
 img {
     border: solid 5px hsla(206, 53%, 59%, 0.92);
     border-radius: 10%;
+    margin-left: 50px;
 }
 
 #inline-block-code-img {
@@ -140,4 +141,28 @@ img {
     width: 60%;
     text-align: center;
     display: inline-block;
+}
+
+.code-block {
+    background-color: rgb(36, 35, 35);
+    display: inline-block;  
+    border: solid 5px hsla(206, 53%, 59%, 0.92);
+    border-radius: 10%;
+    padding: 10px;
+    color: white;
+}
+
+.orange-text {
+    color: rgb(219, 104, 10);
+}
+.blue-text {
+    color: rgb(0, 255, 255);
+}
+
+.darkblue-text {
+    color: rgb(39, 39, 231);
+}
+
+.green-text {
+    color: lightgreen;
 }
