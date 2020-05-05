@@ -1,68 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Sprint 2 Technical Blog Post</title>
-        <link rel="stylesheet" type="text/css" href="..\styles\blog.css">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,700&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header id="header" class="blue">
-            <h1>Ben Irvine - Dev Academy Blog</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sprint 2 Technical Blog Post</title>
+  <link rel="stylesheet" type="text/css" href="..\styles\blog.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,700&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="header" class="blue">
+   <h1>Ben Irvine - Dev Academy Blog</h1>
             
-            <nav>
-            <!-- Nav links in the header, not necessary at the moment
-              <a class="header-link" href="">Introduction</a>  
-              <a class="header-link" href="">About</a>  
-              <a class="header-link" href="">Blog</a>  
-              <a class="header-link" href="">Contact</a>  -->
-              <a class="header-link link" href="https://ben-irvine.github.io/">Home</a>
-            </nav>
+  <nav>
+    <!-- Nav links in the header, not necessary at the moment
+    <a class="header-link" href="">Introduction</a>  
+    <a class="header-link" href="">About</a>  
+    <a class="header-link" href="">Blog</a>  
+    <a class="header-link" href="">Contact</a>  -->
+    <a class="header-link link" href="https://ben-irvine.github.io/">Home</a>
+  </nav>
                       
-          </header>
-          <main>
-              <h2>CSS - Inline Display or Inline-Block Display</h2>
-              <section>
-                  <p class="info-paragraph">In CSS, the 'display' property influences how an element is shown on the page. The values 'inline' and 'inline-block' both place the element
-                    on the same horizontal line as the element before itself (assuming there is space for it), so what is the difference?</p><br>
-                  <h3>Default Display Values</h3>
-                  <p>Starting with the basics of display:</p>
+  </header>
+    <main>
+      <h2>CSS - Inline Display or Inline-Block Display</h2>
+      <section>
+        <p class="info-paragraph">
+          In CSS, the 'display' property influences how an element is shown on the page. The values 'inline' and 'inline-block' both place the element
+          on the same horizontal line as the element before itself (assuming there is space for it), so what is the difference?
+        </p><br>
+        <h3>Default Display Values</h3>
+        <p>Starting with the basics of display:</p>
 
-                  <p class="info-paragraph">Elements with an inline display only take up as much space as needed for their content and their size cannot be altered. Inline elements can sit 
-                      next to each other on the horizontal line or slot into other elements comfortably. Inline elements are useful for putting small additions into block level
-                      elements e.g. using an anchor tag to put a link into a block level paragraph. Default inline elements include a (anchor), span and img. The adjacent code 
-                    shows an anchor element used inside a block paragraph element.</p>
-                  <img id="inline-code-img" alt="Code showing an inline anchor tag" src="..\images\sprint2_technical\inline-code.PNG"><br><br><br><br><br>
-                  <img class="product-img" alt="The resulting link to more information" src="..\images\sprint2_technical\inline-product.PNG"><br>
-                  <p class="img-caption">The resulting paragraph including a link to more information.</p><br><br>
+        <p class="info-paragraph">Elements with an inline display only take up as much space as needed for their content and their size cannot be altered. Inline elements can sit 
+          next to each other on the horizontal line or slot into other elements comfortably. Inline elements are useful for putting small additions into block level
+          elements e.g. using an anchor tag to put a link into a block level paragraph. Default inline elements include a (anchor), span and img. The adjacent code 
+          shows an anchor element used inside a block paragraph element.
+        </p>
+        <img id="inline-code-img" alt="Code showing an inline anchor tag" src="..\images\sprint2_technical\inline-code.PNG"><br><br><br><br><br>
+        <img class="product-img" alt="The resulting link to more information" src="..\images\sprint2_technical\inline-product.PNG"><br>
+        <p class="img-caption">
+          The resulting paragraph including a link to more information.
+        </p><br><br>
 
 
-                  <p class="info-paragraph">Elements with a block display value possess an inherent line break, meaning they always start on a new line and always take up the whole line.
-                    They can also have their height and width adjusted to better suit the layout of the page or the content of
-                    the element. Default block elements include div, p, h1-h6, header, footer and section. The adjacent code shows two block level elements one
-                after the other with no line breaks added.</p>
-                    <img id="block-code-img" alt="Code showing two block level elements one after the other" src="..\images\sprint2_technical\block-code.PNG"><br><br><br><br>
-                    <img class="product-img" alt="The second paragraph sitting below the first." src="..\images\sprint2_technical\block-product.PNG"><br>
-                    <p class="img-caption">The two paragraphs sit vertically, despite there being room for them to sit horizontally.</p><br><br><br><br>
-              </section>
-              <section>
-                  <h3>Inline-Block Elements</h3>
-                  <p class="info-paragraph">Web developers can change the display of elements in CSS to change how to are shown. Giving an element an inline-block display value essentially 
-                      turns it into a block element without the aforementioned inherent line break. This means its height and width can be altered and it can sit on
-                      the same row as other inline or inline-block elements. This allows web developers to horizontally line up as many elements as they can fit on the page. Let's 
-                    change the paragraph's display value to 'inline-block' and see what happens</p>
-                  <img id="inline-block-code-img" alt="CSS code showing the paragraphs are now inline-block elements." src="..\images\sprint2_technical\inline-block-code.PNG"><br><br>
-                  <img class="product-img" alt="The two paragraphs now sit together in the same row" src="..\images\sprint2_technical\inline-block-product.PNG"><br>
-                  <p class="img-caption">The two paragraphs now sit nicely together in the same row.</p><br><br><br>
-              </section>
+        <p class="info-paragraph">
+          Elements with a block display value possess an inherent line break, meaning they always start on a new line and always take up the whole line.
+          They can also have their height and width adjusted to better suit the layout of the page or the content of
+          the element. Default block elements include div, p, h1-h6, header, footer and section. The adjacent code shows two block level elements one
+          after the other with no line breaks added.
+        </p>
+        <img id="block-code-img" alt="Code showing two block level elements one after the other" src="..\images\sprint2_technical\block-code.PNG"><br><br><br><br>
+        <img class="product-img" alt="The second paragraph sitting below the first." src="..\images\sprint2_technical\block-product.PNG"><br>
+        <p class="img-caption">
+          The two paragraphs sit vertically, despite there being room for them to sit horizontally.
+        </p><br><br><br><br>
+      </section>
+      <section>
+        <h3>Inline-Block Elements</h3>
+        <p class="info-paragraph">
+          Web developers can change the display of elements in CSS to change how to are shown. Giving an element an inline-block display value essentially 
+          turns it into a block element without the aforementioned inherent line break. This means its height and width can be altered and it can sit on
+          the same row as other inline or inline-block elements. This allows web developers to horizontally line up as many elements as they can fit on the page. Let's 
+          change the paragraph's display value to 'inline-block' and see what happens
+        </p>
+        <img id="inline-block-code-img" alt="CSS code showing the paragraphs are now inline-block elements." src="..\images\sprint2_technical\inline-block-code.PNG"><br><br>
+        <img class="product-img" alt="The two paragraphs now sit together in the same row" src="..\images\sprint2_technical\inline-block-product.PNG"><br>
+        <p class="img-caption">
+          The two paragraphs now sit nicely together in the same row.
+        </p><br><br><br>
+      </section>
                 
-              </section>
-          </main>
-          <footer class="blue">
-            <a class="link" href="#header">Return to Top</a>
-          </footer>
+      
+    </main>
+    <footer class="blue">
+      <a class="link" href="#header">Return to Top</a>
+    </footer>
 
-    </body>
+</body>
 </html>
