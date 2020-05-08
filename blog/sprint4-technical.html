@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sprint 4 Technical Blog Post</title>
+  <link rel="stylesheet" type="text/css" href="..\styles\blog.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,700&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="header" class="blue">
+    <h1>Ben Irvine - Dev Academy Blog</h1>   
+    <nav>
+      <!-- Nav links in the header, not necessary at the moment
+      <a class="header-link" href="">Introduction</a>  
+      <a class="header-link" href="">About</a>  
+      <a class="header-link" href="">Blog</a>  
+      <a class="header-link" href="">Contact</a>  -->
+      <a class="header-link link" href="https://ben-irvine.github.io/">Home</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Problem Solving Methods</h2>
+
+    <h3 class="core-heading">Getting Blocked on a Simple Problem</h3>
+    <h4 class="core-heading">What was the Problem?</h4>
+    <p class="core-paragraph">
+        While working on the 'whereAreYou' function during the built-in methods kata, I was having a hard time getting my ‘.find()’ method to work.
+         I looked at the sample solution to the problem but found it used some syntax I wasn’t familiar with which confused me further. 
+    </p><br>
+    <h4 class="core-heading">What Problem-Solving Techniques Did You Use?</h4>
+    <p class="core-paragraph">
+        At first, I tried googling a few things but couldn’t get a clear answer that applied to my situation (objects within an array). I decided to 
+        message my facilitator to ask for help and he gave me an explanation that was focused on the info that I needed to know. With his help I figured
+         out what I was doing wrong and realized it was simpler than I was thinking
+    </p><br>
+    <h4 class="core-heading">How Did You Feel Throughout the Process?</h4>
+    <p class="core-paragraph">
+        Very confused. The MDN resource on the method I was using seemed relatively straightforward. But, in context it was a different story for me. 
+        Trying to google it made my confusion even worse as it was giving me a lot of info that wasn’t relevant
+    </p><br>
+    <h4 class="core-heading">What Did You Learn?</h4>
+    <p class="core-paragraph">
+        Using google and online resources is helpful but asking for help from facilitators brings an answer that’s more centred around your understanding
+         and skill level of the concepts. Definitely a good way to problem solve when you feel in over your head.
+    </p><br><br>
+    
+    
+    <h3 class="core-heading">Solving a Problem with Elegance</h3>
+    <h4 class="core-heading">What was the Problem?</h4>
+    <p class="core-paragraph">
+        When doing the FizzBuzz challenge in sprint 4 I encountered an issue. I’d just figured out how to get multiples 
+        of 3 to change to ‘Fizz’ and upon copying this code and changing the specifics I found it worked in changing multiples of 5 to ‘Buzz’ as
+         well. So, I was a bit confused when I did the same for changing multiples of both 3 and 5 to ‘FizzBuzz’ and found it didn’t work. 
+    </p><br>
+    <h4 class="core-heading">What Problem-Solving Techniques Did You Use?</h4>
+    <p class="core-paragraph">
+        I was fortunate that my rubber ducky (flatmate) was right there beside me and happy to take a break from her work to listen to my spiel on my
+         amazing code. During my spiel it became obvious that when a multiple of both 3 and 5 went through the function, it was stopped at the first 
+         check and turned into ‘Fizz’, as it was indeed a multiple of 3. The solution was as simple as (elegantly) shifting the code around, so it 
+         checked whether the number was a multiple of both 3 and 5 first.
+    </p><br>
+    <img id="ducky-img" alt="Many rubber duckies" src="..\images\sprint4_technical\rubberducky.jpg"><br><br>
+    <h4 class="core-heading">How Did You Feel Throughout the Process?</h4>
+    <p class="core-paragraph">
+        At first it was very frustrating. I’d just solved another small (but frustratingly elusive) syntax error that was stopping my code from working.
+         Going from “Eureka! I got it working!” to “Oh damn it’s not working” in the space of a minute was disheartening. But finding the next solution
+          was even more satisfying.
+    </p><br>
+    <h4 class="core-heading">What Did You Learn?</h4>
+    <p class="core-paragraph">
+        The order of operations is a crucial aspect of coding that needs to be considered when writing or debugging code. Talking through the process of
+         the code’s execution is an excellent way to check whether something is out of order. 
+    </p><br><br>
+    
+    <h3 class="core-heading">Problem-Solving Methods and How I Feel About Them</h3>
+
+    <div class="info-block">
+        <h4 class="core-heading">Pseudocode</h4>
+        <p class="small-paragraph">
+            I’ve found pseudocode to be helpful tool in establishing my plan of attack for writing my code. It makes a good gauge of my understanding of what I’m trying to accomplish.        
+        </p>
+    </div>
+
+    
+    <div class="info-block">
+      <h4 class="core-heading">Trying Something</h4>
+      <p class="small-paragraph">
+          If at first it doesn’t work, try something else. While this often helps, I’ve found it’s best not to spend too much time just changing odd things around and hoping it works. 
+      </p>
+    </div>
+
+    
+    <div class="info-block">
+      <h4 class="core-heading">The Rubber Ducky Method</h4>
+      <p class="small-paragraph">
+          This has become my new favourite method of problem-solving when I encounter issues. I have a few eager rubber duckies at home and explaining it to them really helps me to picture what’s going on in my code.
+      </p>
+    </div>
+
+    
+    <div class="info-block">
+      <h4 class="core-heading">Reading Error Messages</h4>
+      <p class="small-paragraph">
+          It’s become a good habit to always read error messages. Often, they have a keyword or two that can tip you off to what the error is, and when something is blatantly out of place is often tells exactly what that is.
+      </p>
+    </div>
+
+    
+    
+    <div class="info-block">
+      <h4 class="core-heading">Console.logging</h4>
+      <p class="small-paragraph">
+          Console.logging has become a pretty natural of the troubleshooting process for me. Repeatedly console.logging my values in different spots of my code helps identify which part of the code is failing. 
+      </p>
+    </div>
+
+    
+    <div class="info-block">
+      <h4 class="core-heading">Googling</h4>
+      <p class="small-paragraph">
+          Almighty google is my go-to problem solver as soon as I realize that I don’t understand what’s going on. A few handy sites in particular have become good ones to look for when googling.
+      </p>
+    </div>
+
+    
+    <div class="info-block">
+      <h4 class="core-heading">Asking Peers For Help</h4>
+      <p class="small-paragraph">
+          Asking my peers in the slack chat is something I’ve only done the once. With them being the resourceful bunch they are it took only about ten minutes to get the solution to my problem. 
+      </p>
+    </div>
+
+    
+    <div class="info-block">
+      <h4 class="core-heading">Asking Coaches For Help</h4>
+      <p class="small-paragraph">
+          Asking the coach for help has been a good in helping me understand things that I’m struggling with. In this course, the facilitators are experts that understand the context of the work we’re doing and can explain things in terms we understand. 
+      </p>
+    </div>
+
+    
+    <div class="info-block">
+      <h4 class="core-heading">Improving Your Process Through Reflection</h4>
+      <p class="small-paragraph">
+          Taking a few minutes after finishing a section of work just to think about what I learned has been helpful in cementing that that learning as well giving me some insight in skills and areas I still need to spend some more time learning.
+      </p>    
+    </div><br><br>
+
+  </main>
+  <footer class="blue">
+    <a class="link" href="#header">Return to Top</a>
+  </footer>
+</body>
+</html>
