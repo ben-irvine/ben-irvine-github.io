@@ -7,6 +7,8 @@
   <title>Ben Irvine - Dev Academy Blog</title>
   <link rel="stylesheet" type="text/css" href="styles\main.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,700&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
+  <script src="index.js"></script>
+  
 </head>
 <body>
   <header id="header" class="blue">
@@ -29,12 +31,17 @@
         blog to document my learning and demonstrate the skills that I learn along the way. It's a work in progress so apologies if there's anything that's not 
         working quite right.
       </p>
-      <img id="smilingben" alt="Gorgeous picture of Ben" src="images\smilingben.jpg">
+      <img onmouseover="helloThere('greeting')" id="smilingben" alt="Gorgeous picture of Ben" src="images\smilingben.jpg">
+      <audio allow="autoplay" id="greeting" src="audio\obi-wan-hello-there.mp3"></audio>
     </section>
     <!--Links for my blog posts-->
     <section>
       <h3>Blog Posts</h3>
       <nav>
+        <div class="blog-link">
+          <a class="mine" href="https://ben-irvine.github.io/minesweeper">Minesweeper Game</a><span class="date">12/05/2020</span><br>
+          <span class="blog-info">My minesweeper game from sprint 5.</span>
+        </div><br>
         <div class="blog-link">
           <a class="Tech4" href="https://ben-irvine.github.io/blog/sprint4-technical.html">Tech 4 Blog Post</a><span class="date">08/05/2020</span><br>
           <span class="blog-info">A reflection about my problem solving in web development.</span>
